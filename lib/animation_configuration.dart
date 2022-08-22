@@ -35,7 +35,7 @@ class AnimationConfiguration extends InheritedWidget {
     Key? key,
     this.duration = const Duration(milliseconds: 225),
     required Widget child,
-  })   : position = 0,
+  })  : position = 0,
         delay = Duration.zero,
         columnCount = 1,
         super(key: key, child: child);
@@ -65,7 +65,7 @@ class AnimationConfiguration extends InheritedWidget {
     this.duration = const Duration(milliseconds: 225),
     this.delay,
     required Widget child,
-  })   : columnCount = 1,
+  })  : columnCount = 1,
         super(key: key, child: child);
 
   /// Configure the children's animation to be staggered.

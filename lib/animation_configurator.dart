@@ -41,7 +41,8 @@ class AnimationConfigurator extends StatelessWidget {
 
     return AnimationExecutor(
       duration: durationAnimation,
-      delay: stagger(positionAnimation, durationAnimation, delayAnimation, columnCountAnimation),
+      delay: stagger(positionAnimation, durationAnimation, delayAnimation,
+          columnCountAnimation),
       builder: (context, animationController) =>
           animatedChildBuilder(animationController!),
     );
