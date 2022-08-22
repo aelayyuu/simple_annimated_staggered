@@ -37,7 +37,9 @@ class SlideAnimation extends StatelessWidget {
     double? verticalOffset,
     double? horizontalOffset,
     required this.child,
-  })   : verticalOffset = (verticalOffset == null && horizontalOffset == null) ? 50.0 : (verticalOffset ?? 0.0),
+  })  : verticalOffset = (verticalOffset == null && horizontalOffset == null)
+            ? 50.0
+            : (verticalOffset ?? 0.0),
         horizontalOffset = horizontalOffset ?? 0.0,
         super(key: key);
 
@@ -51,7 +53,8 @@ class SlideAnimation extends StatelessWidget {
   }
 
   Widget _slideAnimation(Animation<double> animation) {
-    Animation<double> offsetAnimation(double offset, Animation<double> animation) {
+    Animation<double> offsetAnimation(
+        double offset, Animation<double> animation) {
       return Tween<double>(begin: offset, end: 0.0).animate(
         CurvedAnimation(
           parent: animation,
@@ -62,8 +65,12 @@ class SlideAnimation extends StatelessWidget {
 
     return Transform.translate(
       offset: Offset(
-        horizontalOffset == 0.0 ? 0.0 : offsetAnimation(horizontalOffset, animation).value,
-        verticalOffset == 0.0 ? 0.0 : offsetAnimation(verticalOffset, animation).value,
+        horizontalOffset == 0.0
+            ? 0.0
+            : offsetAnimation(horizontalOffset, animation).value,
+        verticalOffset == 0.0
+            ? 0.0
+            : offsetAnimation(verticalOffset, animation).value,
       ),
       child: child,
     );
