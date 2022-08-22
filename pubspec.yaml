@@ -1,6 +1,6 @@
 name: simple_annimated_staggered
 description: Easily add staggered animations to your ListView, GridView, Column and Row children. #credit and edited to https://github.com/The-ring-io/flutter_staggered_animations.git. Much Appreciated to this contributors.
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/aelayyuu/simple_annimated_staggered
 repository: https://github.com/aelayyuu/simple_annimated_staggered.git
 issue_tracker: https://github.com/aelayyuu/simple_annimated_staggered/issues
