@@ -1,7 +1,7 @@
-# simple_annimated_staggered
-Easily add staggered animations to your ListView, GridView, Column and Row children. #credit and edited to https://github.com/The-ring-io/flutter_staggered_animations.git. Much Appreciated to this contributors.
+#simple_annimated_staggered
+Easily add staggered animations to your ListView, GridView, Column and Row children. #credit and edited to https://github.com/The-ring-io/simple_annimated_staggered.git. Much Appreciated to this contributors.
 
-[![Pub](https://img.shields.io/pub/v/flutter_staggered_animations)](https://pub.dev/packages/flutter_staggered_animations)
+[![Pub](https://img.shields.io/pub/v/simple_annimated_staggered)](https://img.shields.io/pub/v/simple_annimated_staggered)
 
 # Flutter Staggered Animations
 
@@ -11,12 +11,12 @@ Easily add staggered animations to your `ListView`, `GridView`, `Column` and `Ro
 
 | ListView                  | GridView                   | Column                       |
 | ---                       | ---                        | ---                          |
-|![](https://github.com/mobiten/flutter_staggered_animations/blob/master/assets/card_list.gif?raw=true)  | ![](https://github.com/mobiten/flutter_staggered_animations/blob/master/assets/card_grid.gif?raw=true)  | ![](https://github.com/mobiten/flutter_staggered_animations/blob/master/assets/card_column.gif?raw=true)  |
+|![](https://github.com/mobiten/simple_annimated_staggered/blob/master/assets/card_list.gif?raw=true)  | ![](https://github.com/mobiten/simple_annimated_staggered/blob/master/assets/card_grid.gif?raw=true)  | ![](https://github.com/mobiten/simple_annimated_staggered/blob/master/assets/card_column.gif?raw=true)  |
 
-## Flutter 2.0 and null-safety
+## Flutter 3.0.5 and null-safety
 
-From 1.0.0 and onwards, `flutter_staggered_animations` is null-safe and requires Dart SDK 2.12.0 minimum.
-If you want to keep using `flutter_staggered_animations` but cannot migrate to null-safety yet, use the version 0.1.3 instead.
+From 1.0.0 and onwards, `simple_annimated_staggered` is null-safe and requires Dart SDK 2.12.0 minimum.
+If you want to keep using `simple_annimated_staggered` but cannot migrate to null-safety yet, use the version 0.1.3 instead.
 
 ## Installation
 
@@ -24,13 +24,13 @@ If you want to keep using `flutter_staggered_animations` but cannot migrate to n
 Add the package as a dependency in your pubspec.yaml file.
 ```yaml
 dependencies:
-  flutter_staggered_animations: ^1.0.0
+  simple_annimated_staggered: ^0.0.2
 ```
 
 ### Import
 Import the package in your code file.
 ```dart
-import 'package:flutter_staggered_animations/flutter_staggered_animations.dart';
+import 'package:simple_annimated_staggered/simple_annimated_staggered.dart';
 ```
 
 ## Basic usage
@@ -221,4 +221,4 @@ Flutter Staggered Animations is released under the [MIT License](LICENSE)
 
 ## About us
 
-As of July 2022, this package is maintained by the front team working on the french mobile application [Dailyn](https://www.dailyn.app) 
+As of July 2022, this package is maintained by the front team working on the french mobile application [Contact](aungyezaw529@gmail.com) 
