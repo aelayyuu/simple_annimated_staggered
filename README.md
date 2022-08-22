@@ -11,12 +11,11 @@ Easily add staggered animations to your `ListView`, `GridView`, `Column` and `Ro
 
 | ListView                  | GridView                   | Column                       |
 | ---                       | ---                        | ---                          |
-|![](https://github.com/mobiten/simple_annimated_staggered/blob/master/assets/card_list.gif?raw=true)  | ![](https://github.com/mobiten/simple_annimated_staggered/blob/master/assets/card_grid.gif?raw=true)  | ![](https://github.com/mobiten/simple_annimated_staggered/blob/master/assets/card_column.gif?raw=true)  |
+|![](https://github.com/aelayyuu/simple_annimated_staggered/blob/main/assets/card_list.gif?raw=true)  | ![](https://github.com/aelayyuu/simple_annimated_staggered/blob/main/assets/card_grid.gif?raw=true)  | ![](https://github.com/aelayyuu/simple_annimated_staggered/blob/main/assets/card_column.gif?raw=true)  |
 
 ## Flutter 3.0.5 and null-safety
 
-From 1.0.0 and onwards, `simple_annimated_staggered` is null-safe and requires Dart SDK 2.12.0 minimum.
-If you want to keep using `simple_annimated_staggered` but cannot migrate to null-safety yet, use the version 0.1.3 instead.
+From 1.0.0 and onwards, `simple_annimated_staggered` is null-safe and requires Dart SDK 2.17.6 minimum or maximun.
 
 ## Installation
 
@@ -24,7 +23,7 @@ If you want to keep using `simple_annimated_staggered` but cannot migrate to nul
 Add the package as a dependency in your pubspec.yaml file.
 ```yaml
 dependencies:
-  simple_annimated_staggered: ^0.0.2
+  simple_annimated_staggered: ^0.0.3
 ```
 
 ### Import
